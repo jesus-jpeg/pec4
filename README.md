@@ -7,7 +7,7 @@ Este proyecto implementa un análisis del volumen de agua en el pantano de La Ba
 ## Estructura del proyecto
 Algunos directorios se generarán al correr el código, como son src/img/, doc/ y venv/. Aún así se entregan en la carpeta zip.
 ```
-PEC4_project/
+PEC4_JesusCabezas/
 ├── src/                            # Código fuente principal
 │   ├── main.py                     # Punto de entrada del proyecto
 │   ├── img/                        # Gráficas generadas por visualization.py
@@ -75,8 +75,9 @@ Para ejecutar los tests:
 ```bash
 cd src
 python -m pytest ../tests
+```
 
-### Medir la cobertura de código
+### Medir la cobertura del código
 
 Para medir la cobertura y ver un resumen en la terminal (salir de src primero):
 
@@ -109,7 +110,7 @@ optional arguments:
   -h, --help  show this help message and exit
   -ex EX      Ejecutar un ejercicio específico (1-5). Si no se indica, se ejecutan todos
 ```
-```
+
 
 ## Documentación
 
